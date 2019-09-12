@@ -1,0 +1,65 @@
+[{
+  "id":1,
+  "text":"华思科技",
+  "children":[{
+    "text":"上海分公司",
+    "state":"open",
+    "checked":true,
+    "children": [{
+      "text": "总裁办公室"
+    }]
+  },
+    {
+    "text":"质量管理本部",
+    "state":"open",
+    "children":[{
+      "text":"质量管理部",
+      "checked":true
+    },{
+      "text":"工程管理部"
+    },{
+      "text":"质量检测部"
+    }]
+  },{
+      "text":"系统开发部",
+      "state":"open",
+      "children":[{
+        "text":"第一事业部"
+      },{
+        "text":"第二事业部"
+      },{
+        "text":"第三事业部"
+      },{
+        "text":"第四事业部"
+      },{
+        "text":"第五事业部"
+      },{
+        "text":"第六事业部"
+      }]
+    },
+    {
+      "text":"管理本部",
+      "state":"open",
+      "children":[{
+        "text":"部务管理部"
+      },{
+        "text":"财务部"
+      }]
+    }]
+},{
+  "text":"成都分公司",
+  "state":"open",
+  "checked":true,
+  "children": [{
+    "text": "信息中心",
+    "children": [{
+      "text": "信息技术研发部"
+    },{
+      "text": "数据采集组"
+    },{
+      "text": "公告组"
+    },{
+      "text": "基金债券组"
+    }]
+  }]
+}]

@@ -1,0 +1,119 @@
+body {
+	background-image: url(../images/bg_login.gif);
+	background-repeat: repeat;
+	margin-left: 24px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.left_heding {
+	background-image: url(../images/left2.gif);
+	background-repeat: repeat-x;
+}
+.left_bg {
+	background-image: url(../images/left5.gif);
+	background-repeat: repeat-y;
+	width: 225px;
+}
+.left_td2 {
+	font-size: 12px;
+	color: #323E4B;
+	height: 29px;
+	border-bottom-width: 1px;
+	border-bottom-style: inset;
+	border-bottom-color: #DED7C9;
+}
+.logoin_bk {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-top-color: #FFFFFF;
+	border-right-color: #FFFFFF;
+}
+.logoin_but {
+	background-image: url(../images/login.gif);
+	background-repeat: no-repeat;
+	height: 72px;
+	width: 78px;
+	border: 1px solid #CCCCCC;
+}
+.login_pass {
+	background-image: url(../images/password.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 147px;
+	border: 1px dashed #7D7D7D;
+	padding-right: 10px;
+	padding-left: 40px;
+	padding-top: 5px;
+}
+
+
+
+
+.left_td {
+	height: 29px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #DED7C9;
+	font-size: 14px;
+	font-weight: bold;
+	color: #323E4B;
+	padding-top: 5px;
+}
+.hidden2_bg {
+	background-image: url(../images/hidden2_bg.gif);
+	background-repeat: repeat-y;
+}
+.left_d2 {
+	background-image: url(../images/left_d2.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+table{   
+    height:100%;  
+  }   
+.left_td2Copy {
+	font-size: 12px;
+	color: #323E4B;
+	height: 20px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #DED7C9;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #FFFFFF;
+}
+.over {
+	font-size: 12px;
+	color: #DED7C9;
+	background-color: #323E4B;
+}
+
+.login_user {
+	background-image: url(../images/user.gif);
+	background-repeat: no-repeat;
+	height: 19px;
+	width: 147px;
+	border: 1px dashed #616161;
+	padding-right: 10px;
+	padding-left: 40px;
+	padding-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.a:link {
+	color: #35404E;
+}
+.a:visited {
+	color: #DED7C9;
+	background-color: #323E4B;
+}
+.a:hover {
+	color: #DED7C9;
+	background-color: #35404E;
+}
+.a:active {
+	color: #35404E;
+}

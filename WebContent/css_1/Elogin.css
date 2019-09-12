@@ -1,0 +1,39 @@
+body,td,th {
+	font-size: 12px;
+	color: #333333;
+}
+body {
+	margin: 0px;
+	height: 100%;
+	position: relative;
+}
+.loginbg {
+	background-image: url(../images/bg.gif);
+	height: 360px;
+	width: 533px;
+	background-repeat: repeat-x;
+}
+.loginbk {
+	border: 1px solid #CCCCCC;
+}
+.height {
+	height: 100%;
+}
+
+
+input{
+	FONT-WEIGHT:   normal;
+	FONT-SIZE:   12px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	font-family: "ÐÂËÎÌå";
+	background-image: url(../images/textfield.gif);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 220px;
+	background-color: #F9F9F9;
+	padding-top: 5px;
+	padding-left: 10px;
+}   

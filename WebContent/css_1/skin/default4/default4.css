@@ -1,0 +1,71 @@
+BODY{
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #EFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+.ets_zone_top{
+	background-color:#4455aa;
+	color:white;
+	font-weight:bold;
+}
+.ets_normal_top{
+	color:white;
+	font-weight:bold;
+}
+/*.ets_normal_top {background-image: url("ets_nav_bot.gif");height:20;}
+.ets_zone_top{background-image:url("ets_normal_top.gif"); height:24}
+.ets_nav_bot{background-image:url("ets_nav_bot.gif"); height:22}
+.ets_row_top{background-image:url("ets_row_top.gif"); height:22}
+.ets_split_top{background-image:url("ets_split_top.gif");height:9}
+.ets_split_bot{background-image:url("ets_split_bot.gif");height:9}
+.ets_message_top{background-color:#f7f3fc; height:22}
+*/
+.ets_normal_top {background-image: url("ets_normal_top.gif");height:20;}
+.ets_zone_top{background-image:url("ets_zone_top.gif"); height:24}
+.ets_nav_bot{background-image:url("ets_nav_bot.gif"); height:22}
+.ets_row_top{background-image:url("ets_row_top.gif"); height:22}
+.ets_split_top{background-image:url("ets_split_top.gif");height:9}
+.ets_split_bot{background-image:url("ets_split_bot.gif");height:9}
+.ets_message_top{background-color:#f7f3fc; height:22}
+.ets_copyright_top{background-color:#f7f7f7; height:22}
+
+.cssT{
+	border :0px;
+	color:black;
+	width:100%;
+	background-color:#6595D6;
+}
+.cssTNormal{
+	background-color:#f7f7f7;
+}
+.cssTSwap{
+	background-color:#e4e8ef;
+}
+.cssTSwap2{
+	background-color:#f8f8f8;
+}
+.cssButton{
+	background-color:#eaeaea;
+}
+.cssPageNav{
+	background-color:#eaeaea;
+}
+
+.cssR{
+	border :0px;
+	width:100%;
+	background-color:#EFEFEF;
+}
+.cssLHead{
+
+}
+.cssRNormal{
+	background-color:#f7f7f7;
+}
+.cssRSwap{
+	background-color:#e4e8ef;
+}

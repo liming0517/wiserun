@@ -1,0 +1,289 @@
+@CHARSET "GB18030";
+
+	body,td {
+		font-size: 12px;
+		font-weight: normal;
+	}
+	
+	body {  
+		background: #FFF;  
+		color: #000;
+		font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;  
+		margin: 10px;  
+		padding: 0  ;
+		
+	}  
+	
+	table,td,th{  
+		color: #FFFFF;
+		font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif ;
+		/*border-spacing:0px;*/
+		border:1px solid  #ABE4FF;
+	} 
+	
+/*滚动样式*/	
+div.scrolltable{
+		clear: both; 
+		width:900px;
+        height:200px;
+        overflow:auto;/*必需*/
+        scrollbar-face-color:#fff;/*那三个小矩形的背景色*/
+        scrollbar-base-color:#FDFDFD;/*那三个小矩形的前景色*/
+        scrollbar-arrow-color:#414141 ;/*上下按钮里三角箭头的颜色*/
+        scrollbar-track-color:#fff;/*滚动条的那个活动块所在的矩形的背景色*/
+        scrollbar-highlight-color:#414141;/*那三个小矩形左上padding的颜色*/
+        scrollbar-shadow-color:#414141;/*那三个小矩形右下padding的颜色*/
+        scrollbar-3dlight-color: #FDFDFD;/*那三个小矩形左上border的颜色*/
+        scrollbar-darkshadow-Color:#FDFDFD;/*那三个小矩形右下border的颜色*/
+
+}
+
+	
+.tablestyle{
+	  	background-color: #FFFFF;
+		border-spacing:0px
+}
+
+
+thead.fixedHeader{
+	background-color:#FDFDFD;
+}
+
+thead.fixedHeader tr {  
+		position: relative;  
+	/* expression is for WinIE 5.x only. Remove to validate and for pure CSS solution   */
+		top: expression(document.getElementById("scrolltable").scrollTop-1);  
+		
+		
+}
+	
+thead.fixedHeader th{
+		position: relative;  
+		text-align:center;/*文字居中 */
+		background: url(../images/bg3.gif) repeat-x #fff top;
+		height: 31px;
+		font-weight: bold;
+		border-bottom-color:#BCBCBC;
+		border-bottom-width:2px;
+		border-right-color:#BCBCBC;
+		border-right-width:2px;
+	}
+	
+.tablestyle thead{
+ top: expression(document.getElementById("scrolltable").scrollTop-2);
+}
+
+.tablestyle td {
+		font-weight: bold;
+		height:28px;
+		padding-left: 10px;
+	}
+	td.textname {
+	/*font-weight: bold;
+	/*line-height: 25px;*/
+	/*padding-left: 10px;
+	background-color: #ffffff;*/
+	PADDING-LEFT: 6px; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: 13px; 
+	background-color: #eee ;
+	LINE-HEIGHT: 18px; 
+	FONT-FAMILY: "楷体_GB2312"; 
+	HEIGHT: 25px;
+	}
+	.blue {
+		background-color: #DEF0FE;
+		/*color:#06c;*/
+		color:#000000
+	}
+	
+	tbody.scrollContent td.blue {
+		background-color: #DEF0FE;
+		/*color:#06c;*/
+		color:#000000
+	}
+	.green {
+		background-color: #DDF2DF;
+		/*color: #006600;*/
+		color:#000000
+	}
+	tbody.scrollContent td.green {
+		background-color: #DDF2DF;
+		/*color: #006600;*/
+		color:#000000
+	}
+	
+	.red {
+		background-color: #FFDFDF;
+		color: #FF0000;
+	}
+	tbody.scrollContent td.red {
+		background-color: #FFDFDF;
+		color: #FF0000;
+	}
+	.purple {
+		background-color: #CC99FF;
+		color: #000000
+	}
+	
+	
+	/*框架内表格表头字体样式*/
+	.zt {
+		font-size: 14px;
+		font-weight: bold;
+		color: #076BCB;
+		padding-left: 10px;
+		/*background:url(images/border_r1_c2.jpg)*/
+	
+		
+	}
+	
+	/*列表表格样式 */
+	.scrollTable {
+		/*background-color: #ABE4FF;*/
+		background-color:#fff;
+	}
+	
+	
+	div.tableContainer {
+		clear: both;  
+        height: 285px;  
+        overflow: auto;  
+        width: 100%; 
+	}  
+	
+	/* WinIE 6.x needs to re-account for it鈥欌??檚 scrollbar. Give it some padding */  
+	\html div.tableContainer/* */ {  
+		padding: 0 1px 0 0  ;
+	}  
+	
+	/* clean up for allowing display Opera 5.x/6.x and MacIE 5.x */  
+	html>body div.tableContainer {  
+		height: auto;  
+		padding: 0
+	}  
+	
+	
+	div.tableContainer table {  
+		float: left;  
+		width: 100%  
+	}  
+	
+	.tableContainer table{
+		background-color: #ABE4FF;
+		width:100%;
+		border:0;
+		padding:0;
+		wiserun:expression(cellSpacing="1");
+		text-align:center;
+	}
+	.tableContainer table thead{
+	
+	}
+	
+	
+	tbody.scrollContent tr.normalRow td {  
+		background-color: #FFF;  
+		padding: 2px 3px  
+	}  
+	
+	tbody.scrollContent tr.alternateRow td {  
+		background: #EEE;  
+		border-bottom: 1px solid #EEE;  
+		border-left: 1px solid #EEE;  
+		border-right: 1px solid #AAA;  
+		border-top: 1px solid #AAA;  
+		padding: 2px 3px ;
+		background-color:expression((this.sectionRowIndex%2==0)?"#E1F1F1":"#F0F0F0"); 
+	}  
+	
+	/*.tablestyle{
+	
+ 		 background-color: #ABE4FF;
+		 
+
+	}
+	/*"销售查询"中table的背景色<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" class="tablestyle">*/
+	
+	.width {
+	width: 160px;
+	}
+	/*"销售查询"width of input/option */
+	.div_bk {
+	/*border: 1px solid #CCCCCC;*/
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #E8F2FF;
+	height: 28px;
+	color: #666666;
+}
+
+.tdstyle{
+	padding-left: 6px;
+	height: 25px;
+	line-height: 17px;
+}
+.deepBlue{
+	background: #CEE0FE;
+/*	color: #2A00E1;*/
+	/*color: #06c;*/
+	color:#000000
+}
+tbody.scrollContent td.deepBlue{
+/*此样式只有适合滚动表格的td*/
+	background: #CEE0FE;
+/*	color: #2A00E1;*/
+	/*color: #06c;*/
+	color:#000000;
+}
+table td.div_style {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #E8F2FF;
+	height: 28px;
+	color: #666666;
+}
+
+/*b隔行变色样式*/
+tr.colorchange{
+	background-color:expression((this.sectionRowIndex%2==0)?"#E8E8E8":"#ffffff");
+	cursor: pointer;
+
+}
+
+tbody td{
+		font-weight: bold;
+		height:28px;
+		padding-left: 10px;
+		text-align:center;
+}
+tbody tr:hover{
+	background-color: #6699CC;
+	border: 2px solid aqua;
+}
+
+tfoot a:hover{
+	color:#0074E8;
+	text-decoration:underline;
+	cursor:pointer;
+}
+
+.autoGet{
+	font-family:"宋体";
+	color:#6D6D6D;
+	background-color:#E4E4E4;
+}
+
+td.import{
+	color:#D16183;
+}
+
+
+td.Emergency{
+	color: #FC8814;
+}
+td.normol{
+	color:#454545;
+}
+
+

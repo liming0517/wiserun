@@ -1,0 +1,190 @@
+/* CSS Document */
+body,td {
+	font-size: 12px;
+	font-weight: normal;
+}
+.manage_bk {
+}
+td{
+	background-color: #FFFFFF;
+}
+.wbgcolor {
+	background-color: #FFFFFF;
+	padding-left: 10px;
+}
+
+
+.topbg {
+	background-image: url(../images/topbg.gif);
+	background-repeat: repeat-x;
+}
+.c {
+	line-height: 25px;
+	font-weight: bold;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.dhbg {
+	background-image: url(../images/dhbg.jpg);
+	height: 35px;
+	background-repeat: repeat-x;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+input {
+/*	height: 12px;*/
+}
+
+.cuti {
+	font-weight: bold;
+	line-height: 25px;
+	padding-left: 10px;
+}
+
+.height {
+	line-height: 18px;
+	font-size: 12px;
+	height: 25px;
+}
+
+.footbg {
+	background-image: url(../images/footbg.jpg);
+	background-repeat: repeat-x;
+	height: 50px;
+}
+.zt2 {
+	font-size: 18px;
+	font-weight: bold;
+	color: #0555A5;
+	font-family: "华文新魏";
+}
+.zt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #076BCB;
+	padding-left: 10px;
+}
+
+
+.bk {
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #ABE4FF;
+	border-bottom-color: #ABE4FF;
+	border-left-color: #ABE4FF;
+}
+.dhzt {
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.height2 {
+	line-height: 16px;
+}
+.bg3 {
+	background-image: url(../images/bg3.gif);
+	background-repeat: repeat-x;
+	height: 35px;
+	font-weight: bold;
+}
+
+.bg {
+	background-image: url(../images/bg.gif);
+	background-repeat: repeat-x;
+	line-height: 25px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+
+.STYLE1 {color: #0099FF}
+.bg2 {
+	height: 35px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-image: url(../images/dhbg.jpg);
+	background-repeat: repeat-x;
+}
+
+.STYLE2 {color: #FF7979}
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #333333;
+}
+a:hover {
+	text-decoration: underline;
+	color: #076BCB;
+}
+a:active {
+	text-decoration: none;
+	color: #333333;
+}
+.tableborder{
+  background-color: #ABE4FF;
+
+}
+.tableborder2{
+  background-color: #5AD0FF;
+
+}
+
+.trstyle
+{
+	background-color: #CCC;
+		padding-left: 10px;
+}
+
+img{
+	cursor: hand;
+}
+
+.textname {
+	font-weight: bold;
+	padding-left: 6px;
+	font-family: "楷体_GB2312";
+	height: 25px;
+	font-size: 13px;
+	line-height: 18px;
+	background: url(../images/textname_bg.gif) repeat-x #eee top;
+}
+.textname2 {
+	font-weight: bold;
+	font-size: 13px;
+	padding-left: 6px;
+	font-family: "楷体_GB2312";
+	height: 25px;
+
+widthtext{
+	width: 100%;
+}
+
+.tdstyle{
+	padding-left: 6px;
+	height: 25px;
+	line-height: 17px;
+}
+
+.fjbg {
+	background-image: url(../images/bj3.gif);
+	background-repeat: repeat-y;
+	background-position: left;
+}

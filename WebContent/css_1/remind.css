@@ -1,0 +1,812 @@
+/* CSS Document */
+
+@CHARSET "GB18030";
+
+body {  
+	background: #FFF;  
+	color: #000;
+	font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;  
+	margin: 10px;  
+	padding: 0  ;
+		
+	}  
+	
+table,td,th{  
+	color: #FFFFF;
+	font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif ;
+		/*border-spacing:0px;*/
+	border:0px solid  #ABE4FF;
+	} 
+	/*查询表彰样式...*/
+	
+.titletd{
+	FILTER: progid:DXImageTransform.Microsoft.gradient(startColorStr:#EFFBFF,EndColorStr :#8EC7FF
+		,GradientType:0); 
+}
+
+.querytable{
+	background-color: #F7F7F7;
+	border:1px #CDCDCD solid;
+}
+.querytable td{
+	border-bottom:1px #CDCDCD solid;
+	text-align:left;
+
+}
+	
+	/*标题样式...*/
+	td.textname {
+	font-weight: bold;
+	padding-left: 6px;
+	font-family: "楷体_GB2312";
+	height: 25px;
+	font-size: 13px;
+	line-height: 18px;
+	FILTER: progid:DXImageTransform.Microsoft.gradient(startColorStr:#9DCEFF 
+,EndColorStr :#ffffff,GradientType:1); 
+	border-bottom: 2px #BCBCBC solid;
+	border-right:2px #BCBCBC solid ;
+}
+
+
+/*标题样式结束...*/	
+
+	.purple {
+		background-color: #CC99FF;
+		color: #000000
+	}
+	
+	/*预算意见表样式*/
+	.sh {
+	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-color: #CCCCCC;
+	border-bottom-style: dashed;
+	}
+	
+	
+	/*框架内表格表头字体样式*/
+	.zt {
+		font-size: 14px;
+		font-weight: bold;
+		color: #464646;
+		padding-left: 10px;
+		text-shadow: 2px 2px 3px #000;
+		/*background:url(images/border_r1_c2.jpg)*/
+	
+		
+	}
+	
+	/*表格滚动... */
+	.scrollTable {
+		width:100%;
+		/*table-layout:fixed;*/
+		
+	}
+	
+.scrollTable td.out {
+		font-weight: bold;
+		height:40px;
+		padding-left: 10px;
+		border-top:1px solid  #E7E7E7;
+		border-left:2px solid #9D9D9D;
+		border-right:1px solid   #E7E7E7;
+		border-bottom:2px solid  #9D9D9D;
+		/*border:1px solid  #ABE4FF;*/
+
+	}
+.scrollTable td.in {
+		font-weight: bold;
+		height:40px;
+		padding-left: 10px;
+		border-top:1px solid  #E7E7E7;
+		border-left:1px solid #9D9D9D;
+		border-right:1px solid   #E7E7E7;
+		border-bottom:1px solid  #9D9D9D;
+}
+
+	
+	div.tableContainer {
+		clear: both;  
+		height: 400px;  
+		overflow: auto; /*必需*/ 
+		
+		
+		width:100%;
+        scrollbar-face-color:#fff;/*那三个小矩形的背景色*/
+        scrollbar-base-color:#FDFDFD;/*那三个小矩形的前景色*/
+        scrollbar-arrow-color:#414141 ;/*上下按钮里三角箭头的颜色*/
+        scrollbar-track-color:#fff;/*滚动条的那个活动块所在的矩形的背景色*/
+        scrollbar-highlight-color:#414141;/*那三个小矩形左上padding的颜色*/
+        scrollbar-shadow-color:#414141;/*那三个小矩形右下padding的颜色*/
+        scrollbar-3dlight-color: #FDFDFD;/*那三个小矩形左上border的颜色*/
+        scrollbar-darkshadow-Color:#FDFDFD;/*那三个小矩形右下border的颜色*/
+
+	}  
+	
+	/* WinIE 6.x needs to re-account for it鈥欌??檚 scrollbar. Give it some padding */  
+	\html div.tableContainer{  
+		padding: 0 16px 0 0  ;
+	}  
+	
+	/* clean up for allowing display Opera 5.x/6.x and MacIE 5.x */  
+	html>body div.tableContainer {  
+		height: auto;
+		padding: 0;
+	}  
+	
+	/* Reset overflow value to hidden for all non-IE browsers. */  
+	/* Filter out Opera 5.x/6.x and MacIE 5.x */  
+	head:first-child+body div[class].tableContainer {  
+		height:300px;  
+		/*overflow: auto;*/
+		width:100% 
+	}  
+	
+	/* define width of table. IE browsers only */  
+	/* if width is set to 100%, you can remove the width */  
+	/* property from div.tableContainer and have the div scale */  
+	div.tableContainer table {  
+		float: left;  
+		width: 100% ;
+		
+	} 
+	
+	/* WinIE 6.x needs to re-account for padding. Give it a negative margin */  
+	\html div.tableContainer table/* */ {  
+		margin: 0 -16px 0 0  
+	} 
+	
+	/* define width of table. Opera 5.x/6.x and MacIE 5.x */  
+	html>body div.tableContainer table {  
+		float: none;  
+		margin:0
+	}  
+	
+	
+	
+	/* define width of table. Add 16px to width for scrollbar. */  
+	/* All other non-IE browsers. Filter out Opera 5.x/6.x and MacIE 5.x */  
+	head:first-child+body div[class].tableContainer table {  
+	width:100% ;
+	}  
+	
+	/* set table header to a fixed position. WinIE 6.x only */  
+	/* In WinIE 6.x, any element with a position property set to relative and is a child of */  
+	/* an element that has an overflow property set, the relative value translates into fixed. */  
+	/* Ex: parent element DIV with a class of tableContainer has an overflow property set to auto */  
+	thead.fixedHeader tr {  
+		position: relative;  
+	/* expression is for WinIE 5.x only. Remove to validate and for pure CSS solution   */
+		top: expression(document.getElementById("tableContainer").scrollTop-1);  
+		
+	}  
+	
+	/* set THEAD element to have block level attributes. All other non-IE browsers */  
+	/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */  
+	/* Filter out Opera 5.x/6.x and MacIE 5.x */  
+	head:first-child+body thead[class].fixedHeader tr {  
+		display: block  
+	}  
+	
+	/* make the TH elements pretty */  
+	thead.fixedHeader  th{
+		position: relative;  
+		text-align:center;/*文字居中 */
+		FILTER: progid:DXImageTransform.Microsoft.gradient(startColorStr:#8EC7FF,EndColorStr :#EFFBFF
+		,GradientType:0); 
+		height: 31px;
+		font-weight: bold;
+		border-bottom-color:#BCBCBC;
+		border-bottom-width:2px;
+		border-left-color:#BCBCBC;
+		border-left-width:2px;
+			
+	}  
+	/* make the A elements pretty. makes for nice clickable headers */  
+	thead.fixedHeader a, thead.fixedHeader a:link, thead.fixedHeader a:visited {  
+		color: #FFF;  
+		display: block;  
+		text-decoration: none;  
+		width: 100%  
+	}  
+	
+	.tableContainer table{
+		background-color: #FFF;
+		width:100%;
+		border:0;
+		padding:0;
+		wiserun:expression(cellSpacing="1");
+		text-align:center;
+	}
+
+	/* make the A elements pretty. makes for nice clickable headers */  
+	/* WARNING: swapping the background on hover may cause problems in WinIE 6.x */  
+	thead.fixedHeader a:hover {  
+		color: #FFF;  
+		display: block;  
+		text-decoration: underline;  
+		width: 100%  
+	}  
+	
+	
+	/* define the table content to be scrollable */  
+	/* set TBODY element to have block level attributes. All other non-IE browsers */  
+	/* this enables overflow to work on TBODY element. All other non-IE, non-Mozilla browsers */  
+	/* induced side effect is that child TDs no longer accept width: auto */  
+	/* Filter out Opera 5.x/6.x and MacIE 5.x */  
+	
+	.scrollContent tr.colorchange{
+	background-color:expression((this.sectionRowIndex%2==0)?"#E8E8E8":"#ffffff");
+	cursor: pointer;
+
+}
+	
+	head:first-child+body tbody[class].scrollContent {  
+		display: block;  
+		height: 262px;  
+		overflow: auto;  
+		width: 100%;  
+	}
+	  
+	
+	/* make TD elements pretty. Provide alternating classes for striping the table */  
+	/* http://www.alistapart.com/articles/zebratables/ */  
+	tbody.scrollContent td, tbody.scrollContent tr.normalRow td {  
+		padding: 2px 3px  
+	}  
+	
+	tbody.scrollContent tr.alternateRow td {  
+		background: #EEE;  
+		border-bottom: 1px solid #EEE;  
+		border-left: 1px solid #EEE;  
+		border-right: 1px solid #AAA;  
+		border-top: 1px solid #AAA;  
+		padding: 2px 3px ;
+	}
+	
+	/* define width of TH elements: 1st, 2nd, and 3rd respectively. */  
+	/* All other non-IE browsers. Filter out Opera 5.x/6.x and MacIE 5.x */  
+	/* Add 16px to last TH for scrollbar padding */  
+	/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors */  
+	
+	head:first-child+body tbody[class].scrollContent td + td + td +td+td+td{  
+		border-right: none;  
+		padding: 2px 4px 2px 3px;  
+		width:100px  
+	
+	/* expression is for WinIE 5.x only. Remove to validate and for pure CSS solution */  
+	top: expression(document.getElementById("tableContainer").scrollTop-1); 
+	}
+	
+	/* define width of TH elements: 1st, 2nd, and 3rd respectively. */  
+	/* All other non-IE browsers. Filter out Opera 5.x/6.x and MacIE 5.x */  
+	/* Add 16px to last TH for scrollbar padding */  
+	/* http://www.w3.org/TR/REC-CSS2/selector.html#adjacent-selectors */  
+	
+	head:first-child+body thead[class].fixedHeader th + th + th+th+th+th {  
+		border-right: none;  
+		padding: 2px 4px 2px 3px;  
+		width: 100px  
+	}  
+	
+	/*表尾固定样式*/
+
+tr.fixeddiTr   
+  {   
+   position: relative; 
+	top:expression(document.getElementById("tableContainer").scrollTop+document.getElementById("tableContainer").clientHeight-document.getElementById("tableContainer").scrollHeight+2);
+	left: expression(this.parentElement.scrollLeft);
+  } 
+  
+
+.fixeddiTr a:hover{
+	color: #66B3FF;
+	text-decoration:underline;
+	cursor:pointer;
+}
+	
+	
+	.contentbg {
+	background-image: url(/CRM2/css/contentbg.gif);
+	}
+	/*"销信息查询"背景图片<BODY leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" class="contentbg" >*/
+	
+	
+	/*"销售查询"中table的背景色<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1" class="tableborder">*/
+	
+	.width {
+	width: 160px;
+	}
+	/*"销售查询"width of input/option */
+	.tableborder th{
+	text-align:center;
+	background-color:#FFFFFF;
+	height:30px;
+	}
+	
+	.div_bk {
+	/*border: 1px solid #CCCCCC;*/
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #E8F2FF;
+	height: 28px;
+	color: #666666;
+}
+.mask{
+	position: absolute;
+	top: 0px; 
+	left: 0px; 
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;   
+	opacity:0.5; 
+	background-color: #666666;
+	z-index: 0; 
+	display: none;
+}
+
+/* 公共审核标签的层样式 */
+/* 1-审核表格样式 */
+#Layer_00 {
+	position:absolute;
+	width:500px;
+	height:150px;
+	z-index:1;
+	margin-top: 75px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 25%;
+	visibility: hidden;
+}
+
+.bk {
+	border-right-width: 0px;
+	border-left-width:0px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #ABE4FF;
+	border-left-color: #ABE4FF;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #ABE4FF;
+}
+
+.biank {
+	padding-left: 15px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #CCCCCC;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.biank3 {
+	/*border-bottom-width: 1px;
+	border-bottom-style: solid;*/
+	height:40px;
+	width:70px;
+	background-color:#E0EAD0;
+	font-family:"宋体";
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	border-bottom: 2px  #51A8FF solid;
+	color:#800000;
+
+}
+
+.biank2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+.tdstyle{
+	padding-left: 6px;
+	height: 25px;
+	line-height: 17px;
+}
+.deepBlue{
+	background: #CEE0FE;
+/*	color: #2A00E1;*/
+	color: #06c;
+}
+
+table td.div_style {
+	font-size: 12px;
+	font-weight: bold;
+	background-color: #E8F2FF;
+	height: 28px;
+	color: #666666;
+}
+.bg {
+	background-color:#D7D997;
+	line-height: 25px;
+	font-weight: bold;
+	padding-left: 10px;
+	cursor:pointer;
+}
+.STYLE4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+/*配色方案6*/
+
+/*自动获取数据样式*/
+td.atuoget6{
+	font-weight: lighter;
+	color: #b3b3b3;
+	background-color:#ccccff;
+	
+}
+
+/*输入型数据及其连接样式*/
+td.inputdate6{
+	background-color:#ffff99;
+	color:#b3b3b3;
+}
+
+td.inputdate6 a:link,td.inputdate6 a:visited{
+	color: #b3b3b3;
+	font-weight: lighter;
+	text-decoration:none;
+}
+
+td.inputdate6 a:hover{
+	font-weight: lighter ;
+	text-decoration:underline;
+	color: #000066;
+}
+
+/*自动计算型数据及其链接样式*/
+td.autocalculation6{
+	background-color:#ffccc;
+	color:#b3b3b3;
+	
+}
+
+td.autocalculation6 a:link,td.autocalculation6 a:visited{
+	color:#b3b3b3;
+	font-style:italic;
+	/*font-weight:bold;
+	text-decoration:none;*/
+}
+
+td.autocalculation6 a:hover{
+	/*font-weight:bold;*/
+	font-style: normal;
+	text-decoration:underline;
+	color: #000066;
+}
+
+td.remind7{
+	background:#FDF1EA;
+	color: red;
+}
+
+
+/*配色6结束...*/
+
+
+
+
+/*配色方案7*/
+
+/*自动获取数据样式*/
+td.atuoget7{
+	font-weight: lighter;
+	color: #000000;
+	background-color:#F2F4EA;
+}
+
+/*输入型数据及其连接样式*/
+td.inputdate7{
+	background-color:#E8F5FC;
+}
+
+td.inputdate7 a:link,td.inputdate7 a:visited{
+	color: #000000;
+	font-weight:bold;
+	/*text-decoration:none;*/
+}
+
+td.inputdate7 a:hover{
+	font-weight:bold;
+	text-decoration:underline;
+	color: #000066;
+}
+
+/*自动计算型数据及其链接样式*/
+td.autocalculation7{
+	background-color:#FEF0F4;
+	
+}
+
+td.autocalculation7 a:link,td.autocalculation7 a:visited{
+	color:#000000;
+	font-style:italic;
+	/*font-weight:bold;
+	text-decoration:none;*/
+}
+
+td.autocalculation7 a:hover{
+	/*font-weight:bold;*/
+	font-style:normal;
+	text-decoration:underline;
+	color: #000066;
+}
+
+td.remind7{
+	background:#FDF1EA;
+	color: red;
+}
+
+
+/*配色7结束...*/
+
+
+/*配色方案10*/
+
+/*自动获取数据样式*/
+td.atuoget10{
+	/*font-weight: lighter;*/
+	color: #000;
+	background-color:#8DC7EB;
+}
+
+/*输入型数据及其连接样式*/
+td.inputdate10{
+	background-color:#e8f5fc;
+	color:#000;
+}
+
+td.inputdate10 a:link,td.inputdate10 a:visited{
+	color: #000;
+	font-weight: lighter;
+	/*text-decoration:none;*/
+}
+
+td.inputdate10 a:hover{
+	font-weight: lighter ;
+	text-decoration:underline;
+	color: #000066;
+}
+
+/*自动计算型数据及其链接样式*/
+td.autocalculation10{
+	background-color:#ed7f3b;
+	color:#000;
+	
+}
+
+td.autocalculation10 a:link,td.autocalculation10 a:visited{
+	color:#000;
+	font-style:italic;
+	/*font-weight:bold;
+	text-decoration:none;*/
+}
+
+ td.autocalculation10 a:hover{
+	/*font-weight:bold;*/
+	font-style:normal;
+	text-decoration:underline;
+	color: #000066;
+}
+
+td.remind10{
+	background:#e8f5fc;
+	color:#B30000;
+}
+
+
+
+/*配色10结束...*/
+
+/*配色方案9*/
+
+/*自动获取数据样式*/
+td.atuoget9{
+	font-weight: lighter;
+	color: #000;
+	background-color:#e8e8ff;
+}
+
+/*输入型数据及其连接样式*/
+td.inputdate9{
+	background-color:#add8ff;
+	color:#000;
+}
+
+td.inputdate9 a:link,td.inputdate9 a:visited{
+	color: #000;
+	font-weight: lighter;
+	text-decoration:none;
+}
+
+td.inputdate9 a:hover{
+	font-weight: lighter ;
+	text-decoration:underline;
+	color: #000066;
+}
+
+/*自动计算型数据及其链接样式*/
+td.autocalculation9{
+	background-color:#fbece2;
+	color:#000;
+	
+}
+
+td.autocalculation9 a:link,td.autocalculation9 a:visited{
+	color:#000;
+	font-style:italic;
+	/*font-weight:bold;
+	text-decoration:none;*/
+}
+
+td.autocalculation9 a:hover{
+	/*font-weight:bold;*/
+	font-style: normal;
+	text-decoration:underline;
+	color: #000066;
+}
+
+td.remind9{
+	background:#FDF1EA;
+	color: red;
+}
+
+
+input,select{
+	background-color:#E8F5FC;
+	
+}
+textarea{
+	background-color:#E8F5FC;
+}
+
+/*配色9结束...*/
+
+
+/*配色方案8*/
+
+/*自动获取数据样式*/
+td.atuoget8{
+	font-weight: lighter;
+	color: #000;
+	/*background-color:#FFEDFF;
+	background-color: #EEDDFF;*/
+	background-color:#fff;
+}
+
+/*输入型数据及其连接样式*/
+td.inputdate8{
+	background-color:#d6e9fc;
+	color:#000;
+}
+
+td.inputdate8 a:link,td.inputdate8 a:visited{
+	color: #000;
+	font-weight: lighter;
+	text-decoration:none;
+}
+
+td.inputdate8 a:hover{
+	font-weight: lighter ;
+	text-decoration:underline;
+	color: #000066;
+}
+td.formauto{
+	background:#FFFFFF;
+}
+
+/*自动计算型数据及其链接样式*/
+td.autocalculation8{
+	/*background-color:#fff7d6;*/
+	background-color: #E0EAD0;
+	color:#000;
+	
+}
+
+td.autocalculation8 a:link,td.autocalculation8 a:visited{
+	color:#000;
+	font-style:italic;
+	/*font-weight:bold;
+	text-decoration:none;*/
+}
+
+td.autocalculation8 a:hover{
+	/*font-weight:bold;*/
+	font-style:normal;
+	text-decoration:underline;
+	color: #000066;
+}
+
+td.remind8{
+	background:#FDF1EA;
+	color: red;
+}
+
+
+/*input,select{
+	background-color:#E8F5FC;
+}*/
+
+/*配色8结束...*/
+
+
+/*事务提醒级别*/
+
+td.starone{
+	background:url(../images/star_one.gif) 0 0 no-repeat;
+}	
+
+td.startwo{
+	background:url(../images/star_two.gif) 0 0 no-repeat;
+}
+
+td.starthree{
+	background:url(../images/star_three.gif) 0 0 no-repeat;
+}
+/*事务提醒级别结束...*/		
+
+/*按钮样式*/
+.btnnomal{
+	border:0px;
+	width:73px;
+	height:26px;
+	font-weight:bold;
+	font-size:12px;
+	background: url(../images/button4.gif) no-repeat left top;
+	vertical-align:middle;
+	/*text-align:center;*/
+	color:#FFF;
+	/*onmouseover:expression(onmouseover=function(){this.style.backgroundPosition='left -66px';});
+	onmouseout:expression(onmouseout=function(){this.style.backgroundPosition='left top';});*/
+}
+
+.btnred{
+	background-position:left -26px;/*图片中第二个按钮的位置*/
+}
+
+.btnnomal_mouseover{
+	border:0px;
+	width:73px;
+	height:26px;
+	font-weight:bold;
+	font-size:12px;
+	vertical-align:middle;
+	background: url(../images/button4.gif) no-repeat left top;
+	background-position:left -52px;
+	text-align:center;
+	color:#FFF;
+}
+
+.btnnomal_mouseout{
+	border:0px;
+	width:73px;
+	height:26px;
+	font-weight:bold;
+	font-size:12px;
+	vertical-align:middle;
+	background: url(../images/button4.gif) no-repeat left top;
+	background-position:left top;
+	text-align:center;
+	color:#FFF;
+}
+.btnred_out{
+	border:0px;
+	width:73px;
+	height:26px;
+	font-weight:bold;
+	font-size:12px;
+	vertical-align:middle;
+	background: url(../images/button4.gif) no-repeat left top;
+	background-position:left -26px;
+	text-align:center;
+	color:#FFF;
+}
+
+
+/*按钮样式结束...*/

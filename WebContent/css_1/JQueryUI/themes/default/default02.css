@@ -1,0 +1,150 @@
+/*
+
+  @ default.css for free business template "NOVUM"
+  @ free to use for business and personal websites as long as you keep the links in the template
+  @ visit me -> http://www.ego-surf.net
+
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #666;
+  line-height: 150%;
+  background: #F7F7F7 url(../../../../images/bg_body02.jpg) repeat-x;
+  margin: 0;
+}
+
+a {color: #E9561B; text-decoration: none;}
+a:hover {color: #E9561B; text-decoration: underline;}
+
+
+h1, #name {
+  font-family: Times New Roman, Times, serif;
+  color: #414B66;
+  font-size: 16px;
+  margin:0;
+  font-weight: bold;
+}
+
+h3 {
+  color: #414B66;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 15px 0 0 15px;
+}
+
+
+.bigbox h1, .bigbox h2 {
+    padding: 35px 0 0 30px;
+}
+
+.bigbox p {
+  margin: 20px 20px 0 0;
+}
+
+
+#site_wrapper {
+	width: 100%;
+	position: absolute;
+	margin-left: 0;
+	/*left: -374px;*/
+	top: 18px;
+}
+
+
+#header {
+  height:50px;
+}
+
+#logo {
+  position: absolute;
+  top:18px;
+  padding-left:40px;
+ 
+}
+
+#name {
+	position: absolute;
+	top:15px;
+	left: 40px;
+	width: 714px;
+}
+
+#navigation {
+  height: 33px;
+  overflow: hidden;
+}
+
+#navigation ul, #navigation li{margin: 0; padding: 0; height: 27px;}
+#navigation li { list-style-type:none; float: left; padding: 6px 10px 0 10px;}
+#navigation li.special {background: url(/VANDF/css/JQueryUI/themes/default/bg_navtoporange.jpg);}
+#navigation li:hover {background: url(/VANDF/css/JQueryUI/themes/default/bg_navtoporange.jpg);}
+#navigation li.special:hover {background: url(/VANDF/css/JQueryUI/themes/default/bg_navtoporange.jpg);}
+#navigation li, #navigation li a {color: #FFF; text-decoration: none;FILTER: 
+shadow(color=#8C96B5,direction=135)chroma(color=#E1E4EC)
+
+}
+
+.bigbox {
+  background: url(/VANDF/css/JQueryUI/themes/default/bg_boxbig.jpg) repeat-x #FFF;
+  border-left:  1px solid #999;
+  border-right:  1px solid #999;
+  border-bottom:  1px solid #999;
+  width: 100%;
+}
+
+.orangeball {
+  background: url(/VANDF/css/JQueryUI/themes/default/img_orangeball.png) no-repeat center;
+  height: 90px;
+  width: 90px;
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  position: absolute;
+  }
+.orangeball .text {
+  margin-top: 25px;
+}
+
+
+.smallbox {
+  float: left;
+  width: 238px;
+  background: url(/VANDF/css/JQueryUI/themes/default/bg_boxsmall.jpg) repeat-x #FFF;
+  border:  1px solid #999;
+  margin-right: 15px;
+}
+
+.smallbox_container {margin-top: 65px;}
+.smallbox_container div:last-child {margin-right: 0px;}
+
+.smallbox .content {
+  height: 120px;
+  overflow: hidden;
+}
+
+
+.smallbox .button {
+  background-image: url(/VANDF/css/JQueryUI/themes/default/bg_boxsmallfoot.jpg);
+  border: 1px solid white;
+  padding: 10px;
+  text-align: right;
+  color: #FFF;
+  bottom: 1px;
+  width: 216px;
+}
+
+.smallbox .button:hover {background: url(/VANDF/css/JQueryUI/themes/default/bg_boxsmallfoothover.jpg);}
+.smallbox .button a {color: #FFF; text-decoration: none;}
+
+.foot {
+  margin: 20px 0 10px 0;
+  text-align: center;
+  color: #999;
+}
+
+.foot a {color: #999; text-decoration: none;}
+
+
+.clear {clear: both;}

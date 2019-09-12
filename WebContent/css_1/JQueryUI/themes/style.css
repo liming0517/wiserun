@@ -1,0 +1,794 @@
+* { 
+	margin:0;
+	padding:0;
+}
+html, body { 
+	height:100%;
+	margin:5px;
+}
+/*html {
+	min-width:971px;
+}*/
+body { 
+	background:#f4f4f4; 
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%; 
+	/*line-height:1.125em;*/
+	/*color:#999;*/
+}
+img {
+	border:0; 
+	vertical-align:top; 
+	text-align:left;
+}
+object { 
+	vertical-align:top; 
+	outline:none;
+}
+ul, ol { 
+	list-style:none;
+}
+table, td {
+	border:none;
+	padding:0;
+	border-collapse:collapse;
+	vertical-align:top;
+	text-align:left;
+}
+
+.fleft { 
+	float:left;
+}
+.fright { 
+	float:right;
+}
+.clear { 
+	clear:both;
+}
+
+.col-1, .col-2, .col-3 { 
+	float:left;
+}
+
+.alignright { 
+	text-align:right;
+}
+.aligncenter { 
+	text-align:center;
+}
+.alignleft { 
+	text-align:center;
+}
+
+.wrapper { 
+	width:100%;
+	overflow:hidden;
+}
+/*专业标准*/
+
+
+#main_zy {/*专业主要内空div*/
+	background: none;
+	margin:0 auto;
+	padding: 12px 12px 0;
+	width: 936px;
+}
+
+#container_zy {
+	width: 960px;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #fff;
+}
+#content-home {
+	float: left;
+	width: 935px;
+}
+
+#content-bottom {
+	margin:0 auto 0;
+	width: 960px;
+}
+
+#content-bottom p {
+	text-align: left;
+	color: #ccc;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+#content-bottom p a {
+	color: #ccc;
+	font-weight: bold;
+}
+
+.content-bottom-inner {
+	padding: 20px 25px 30px;
+}
+
+#content-bottom .content-bottom-inner ul {
+	width: 260px;
+	list-style: none;
+	margin: 0 65px 0 0;
+	padding: 0;
+	float: left;
+}
+
+#content-bottom .content-bottom-inner li {
+	padding: 7px 5px;
+}
+
+#content-bottom .content-bottom-inner h4 {
+	border-bottom:1px solid #eee;
+}
+
+#content-bottom .content-bottom-inner li a {
+	color: #fff;
+	text-decoration: none;
+	background-color:#1ADDFF;
+	padding:7px;
+}
+
+#content-bottom .content-bottom-inner h4 {
+	font-weight: normal;
+	font-size: 25px;
+	color: #000;
+	padding-bottom:0px;
+}
+
+#content-bottom .content-bottom-inner ul.lastcol {
+	margin-right: 0;
+}
+
+#content-bottom .content-bottom-inner span.sitename {
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 40px;
+	font-weight: normal;
+	letter-spacing: -2px;
+	color: #aaa;
+	float: left;
+}
+
+#content_zy {/*专业具体内容*/
+	float: left;
+	width: 635px;
+}
+
+.sidebar {
+	width: 250px;
+	padding: 10px 0 0;
+	float: right;
+}
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar ul li {
+	margin-bottom: 20px;
+	line-height: 1.9em;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li ul li {
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	border-top: none;
+	padding: 6px 2px;
+	margin: 0;
+	line-height: 1.5em;
+	font-size: 13px;
+	border: none;
+}
+
+.sidebar li ul li a {
+	font-weight: normal;
+	color: #222;
+}
+
+.sidebar li ul li a:hover {
+	color: #1ADDFF;
+}
+
+.sidebar li ul.blocklist li {
+	padding: 0;
+	display: inline;
+}
+
+.sidebar li ul.blocklist li a {
+	display: block;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 1px;
+	padding: 7px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-bottom:1px solid #eee;
+}
+
+.sidebar li ul.blocklist li a:hover {
+	background-color: #1ADDFF;
+	color: #fff;
+}
+
+.h3_font {
+	color: #888;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.imgleft {
+	float:left;
+	padding:5px;
+	margin-right:5px;
+	margin-bottom:5px;
+	border:1px solid #ccc;
+}
+
+/*==== GLOBAL =====*/
+#main, .container {
+	width:100%; 
+	margin:0 auto;
+	background: none;
+
+}
+
+
+
+
+
+#header {
+	height:120px;
+	overflow:hidden;
+}
+/*#footer {
+	padding:45px 0 45px 0;
+	background:#ebebeb;
+	border-top:1px solid #d8d8d8;
+}*/
+
+
+/*----- forms parameters -----*/
+
+input, select, textarea { 
+	font-family:Arial, Helvetica, sans-serif; font-size:1em;
+	vertical-align:middle;
+	font-weight:normal;
+}
+
+
+
+
+/*----- txt, links, lines, titles -----*/
+a {
+	color:#000; 
+	outline:none;
+}
+a:hover{
+	text-decoration:none;
+}
+
+h1 {
+	font-size:24px;
+	line-height:1.2em;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	color:#313131;
+}
+	h1 a {
+		text-decoration:none;
+		color:#313131;
+	}
+	h1 a:hover {
+		text-decoration:none;
+	}
+h2 {
+	font-size:30px;
+	line-height:1em;
+	color:#313131;
+	font-weight:normal;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+h3 {
+	font-size:20px;
+	font-family:"宋体"
+	line-height:1.2em;
+	color:#fff;
+	font-weight:normal;
+	border-bottom:1px solid #cbd1d3;
+	padding-bottom:8px;
+	margin-bottom:32px;
+	width:100%;
+	overflow:hidden;
+}
+h3.alt {
+	padding-bottom:4px;
+}
+	h3 em {
+		float:right;
+		font-size:14px;
+		line-height:18px;
+		color:#999;
+		padding:5px 0 0 0;
+	}
+		h3 em img {
+			margin-left:13px;
+		}
+h4 {
+	font-size:1em;
+	color:#313131;
+	margin-bottom:12px;
+}
+h5 {
+	font-size:1em;
+	font-weight:normal;
+	margin-bottom:8px;
+}
+
+
+
+.link1:hover { 
+	text-decoration:underline;
+}
+	.link1 b { 
+		display:block;
+		background:url("/VANDF/css/JQueryUI/themes/link1-right.gif") no-repeat right top; 
+		padding:0 16px; 
+		font-weight:normal;
+		line-height:29px; 
+	}
+
+
+
+/*===== header 主页 =====*/
+#header1 .row-1 {
+	height:60px;
+	overflow:hidden;
+}
+	#header1 .logo {
+		float:left;
+		padding:10px 0 0 27px;
+	}
+		#header1 .logo h1 {
+			background: url("/VANDF/css/JQueryUI/themes/logo.jpg") no-repeat 0 0;
+			padding:16px 0 0 59px;
+			
+		}
+
+
+
+	#header1 .nav li {
+		float:left;
+		padding-right:2px;
+	}
+		#header1 .nav li a {
+			float:left;
+			line-height:23px;
+			font-size:14px;
+			color:#000;
+			text-decoration:none;
+			padding:0 90px 0 90px;
+			background:#e0e0e0;
+		}
+		#header1 .nav li a:hover, #header1 .nav li a.current {
+			background: #c00;
+			color:#fff;
+		}
+	
+	#header1 .nav li.first a {
+		background:url("/VANDF/css/JQueryUI/themes/nav-first.gif") no-repeat 0 0 #e0e0e0;
+	}
+		#header1 .nav li.first a:hover, #header1 .nav li.first a.current {
+			background:url("/VANDF/css/JQueryUI/themes/nav-first-act.gif") no-repeat 0 0 #c00;
+		}
+	#header1 .nav li.last a {
+		background:url("/VANDF/css/JQueryUI/themes/nav-last.gif") no-repeat 100% 0 #e0e0e0;
+		padding:0 95px 0 95px;
+	}
+		#header1 .nav li.last a:hover, #header1 .nav li.last a.current {
+			background:url("/VANDF/css/JQueryUI/themes/nav-last-act.gif") no-repeat 100% 0 #c00;
+		}
+
+
+/*===== header =====*/
+#header .row-1 {
+	height:60px;
+	overflow:hidden;
+}
+	#header .logo {
+		float:left;
+		padding:10px 0 0 27px;
+	}
+		#header .logo h1 {
+			background: url("/VANDF/css/JQueryUI/themes/logo.jpg") no-repeat 0 0;
+			padding:16px 0 0 59px;
+			
+		}
+
+
+
+	#header .nav li {
+		float:left;
+		padding-right:2px;
+	}
+		#header .nav li a {
+			float:left;
+			line-height:23px;
+			font-size:14px;
+			color:#000;
+			text-decoration:none;
+			padding:0 95px 0 95px;
+			background:#e0e0e0;
+		}
+		#header .nav li a:hover, #header .nav li a.current {
+			background: #c00;
+			color:#fff;
+		}
+	
+	#header .nav li.first a {
+		background:url("/VANDF/css/JQueryUI/themes/nav-first.gif") no-repeat 0 0 #e0e0e0;
+	}
+		#header .nav li.first a:hover, #header .nav li.first a.current {
+			background:url("/VANDF/css/JQueryUI/themes/nav-first-act.gif") no-repeat 0 0 #c00;
+		}
+	#header .nav li.last a {
+		background:url("/VANDF/css/JQueryUI/themes/nav-last.gif") no-repeat 100% 0 #e0e0e0;
+		padding:0 135px 0 120x;
+	}
+		#header .nav li.last a:hover, #header .nav li.last a.current {
+			background:url("/VANDF/css/JQueryUI/themes/nav-last-act.gif") no-repeat 100% 0 #c00;
+		}
+		
+/*===== header2 =====*/
+#header2 .row-1 {
+	height:60px;
+	overflow:hidden;
+}
+	#header2 .logo {
+		float:left;
+		padding:10px 0 0 27px;
+	}
+		#header2 .logo h1 {
+			background: url("/VANDF/css/JQueryUI/themes/logo.jpg") no-repeat 0 0;
+			padding:16px 0 0 59px;
+			
+		}
+
+
+
+	#header2 .nav li {
+		float:left;
+		padding-right:2px;
+	}
+		#header2 .nav li a {
+			float:left;
+			line-height:23px;
+			font-size:14px;
+			color:#000;
+			text-decoration:none;
+			padding:0 16px 0 16px;
+			background:#e0e0e0;
+		}
+		#header2 .nav li a:hover, #header2 .nav li a.current {
+			background: #c00;
+			color:#fff;
+		}
+	
+	#header2 .nav li.first a {
+		background:url("/VANDF/css/JQueryUI/themes/nav-first.gif") no-repeat 0 0 #e0e0e0;
+	}
+		#header2 .nav li.first a:hover, #header2 .nav li.first a.current {
+			background:url("/VANDF/css/JQueryUI/themes/nav-first-act.gif") no-repeat 0 0 #c00;
+		}
+	#header2 .nav li.last a {
+		background:url("/VANDF/css/JQueryUI/themes/nav-last.gif") no-repeat 100% 0 #e0e0e0;
+		padding:0 28px 0 28px;
+	}
+		#header2 .nav li.last a:hover, #header2 .nav li.last a.current {
+			background:url("/VANDF/css/JQueryUI/themes/nav-last-act.gif") no-repeat 100% 0 #c00;
+		}		
+
+/*===== content =====*/
+#content .indent {
+	padding:45px 0 60px 0;
+}
+	#content .section {
+		padding-bottom:60px !important;
+	}
+	#content .indent .indent {
+		padding:0 0 0 28px;
+	}
+	
+	
+	
+.main-box {
+	width:100%;
+	overflow:hidden;
+	padding-top:10px;
+}
+	.main-box #slider {
+		float:left;
+		width:642px;
+		height:414px;
+		overflow:hidden;
+		position:relative;
+	}
+	.main-box .tabs-box {
+		float:left;
+		width:329px;
+		height:414px;
+		overflow:hidden;
+	}
+	
+
+/*--- tabs begin ---*/
+	ul.tabs {
+		margin: 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		height: 40px; /*--Set height of tabs--*/
+		width: 100%;
+	}
+	ul.tabs li {
+		float: left;
+		height: 40px; /*--Subtract 1px from the height of the unordered list--*/
+		line-height: 40px; /*--Vertically aligns the text within the tab--*/
+		overflow: hidden;
+		position: relative;
+		background: #5e5e5e;
+		font-size:10px;
+		color:#e2e2e2;
+		text-transform:uppercase;
+		border-right:1px solid #313131;
+	}
+	ul.tabs li.last-item {
+		border-right:none;
+	}
+	ul.tabs li.last-item a {
+		background: no-repeat 100% 0 #5e5e5e;
+	}
+	ul.tabs li a {
+		text-decoration: none;
+		color: #e2e2e2;
+		display: block;
+		outline: none;
+		width:109px;
+		text-align:center;
+	}
+	ul.tabs li a:hover {
+		background: #313131;
+	}
+	ul.tabs li.last-item a:hover {
+		background:url no-repeat 100% 0 #313131;
+	}
+	html ul.tabs li.active, html ul.tabs li.active a:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+		background: #313131
+	}
+	html ul.tabs li.active a.last, html ul.tabs li.active a.last:hover  { /*--Makes sure that the active tab does not listen to the hover properties--*/
+		background: no-repeat 100% 0 #313131;
+	}
+	
+	.tab_container {
+		overflow: hidden;
+		clear: both;
+		float: left;
+		width: 100%;
+		background: #313131;
+		height:374px;
+		text-align:left;
+	}
+	.tab_content {
+		padding:100px 20px 0 26px;
+		display:none;
+	}
+		.tab_content h2 {
+			font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+			font-size:34px;
+			line-height:32px;
+			color:#e7e8a8;
+			font-weight:normal;
+			margin-bottom:17px;
+			background:#313131;
+		}
+		.tab_content a {
+			font-size:14px;
+			line-height:18px;
+			color:#e2e2e2;
+		}
+/*--- tabs end ---*/
+
+
+.news li {
+	position:relative;
+	border-bottom:1px dashed #c8c8c8;
+	padding-bottom:25px;
+	margin-bottom:25px;
+	overflow:hidden;
+	width:100%;
+}
+.news li.last {
+	padding-bottom:0;
+	margin-bottom:0;
+	border:none;
+}
+	.news li h2 {
+		padding:10px 0 35px 100px;
+	}
+		.news li h2 a {
+			color:#313131;
+			text-decoration:none;
+		}
+		.news li h2 a:hover {
+			color:#cc0000;
+		}
+	
+	.news li .img-box h4 {
+		padding-top:20px;
+	}
+	
+	.news li span.date {
+		position:absolute;
+		left:0;
+		top:0;
+		/*background:url(images/date-bg.jpg") no-repeat 0 0;*/
+		width:81px;
+		height:86px;
+		display:block;
+		font-size:24px;
+		line-height:1em;
+		color:#fff;
+		text-align:center;
+		font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	}
+		.news li span.date b {
+			display:block;
+			font-size:42px;
+			line-height:1em;
+			padding:8px 0 0 0;
+		}
+		
+
+.issues dt, .news dt {
+	color:#cc0000;
+	font-size:10px;
+	text-transform:uppercase;
+	margin-bottom:8px;
+}
+.issues dd, .news dd {
+	border-bottom:1px dashed #c8c8c8;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+.issues dd.last, .news dd.last {
+	border-bottom:none;
+	padding-bottom:0;
+}
+	.issues dd p, .news dd p {
+		margin-bottom:6px;
+	}
+	.issues dd a, .news dd a {
+		color:#333;
+		text-decoration:none;
+	}
+	.issues dd a:hover, .news dd a:hover {
+		text-decoration:underline;
+	}
+
+
+.calendar {
+	width:100%;
+	text-align:center;
+	margin-bottom:18px;
+	border-collapse: collapse;
+	
+}
+.calendar caption {
+	color:#000;
+	font-size:13px;
+	text-align:left;
+	font-weight:bold;
+	padding-left:10px;
+}
+	.calendar td {
+		
+		text-align:center;
+		font-size:13px;
+		/*width:40px;*/
+		padding:3px 0 3px 0;
+		border-bottom:#999 dashed 1px;
+		border-right:#999 solid 1px;
+	}
+	
+	.calendar thead td {
+		padding:6px 0 6px 0;
+
+	}
+	.calendar tbody td {
+		color:#000;
+		font-weight:bold;
+	}
+		.calendar tbody td a {
+			display:block;
+			background: #990000;
+			color:#fff;
+			text-decoration:none;
+		}
+		.calendar tbody td a, .calendar tbody td span {
+			/*width:30px;*/
+			line-height:27px;
+			display:block;
+		}
+		.calendar tbody td a:hover {
+			text-decoration:underline;
+		}
+
+
+.list1 li {
+	background:url("/VANDF/css/JQueryUI/themes/bull1.gif") no-repeat 0 7px;
+	padding:0 0 10px 13px;
+}
+
+/*===== footer =====*/
+#footer .container {
+	font-size:10px;
+}
+	/*#footer a {
+		color:#999;
+	}*/
+	#footer span {
+		color:#313131;
+		text-transform:uppercase;
+	}
+/*	#footer .nav {
+		margin-left:-7px;
+		padding-bottom:4px;
+	}
+	#footer .nav li {
+		display:inline;
+	}
+		#footer .nav li a {
+			color:#999;
+			text-transform:uppercase;
+			text-decoration:none;
+			padding:0 10px 0 7px;
+		}
+		#footer .nav li a:hover {
+			color:#000;
+			text-decoration:underline;
+		}*/
+	
+/*news*/
+.newszx{
+	border:1px solid #a4bed4;
+	margin:10px;
+}
+
+.newszx td{
+	border-bottom:1px dotted #999;
+	padding:5px;
+	height:30px;
+	color:#333333;
+	
+}
+
+.newszx a{
+	display:block;
+	color:#000;
+	text-decoration:none;
+}
+.newszx a:hover {
+	color:#c00;
+	text-decoration:underline;
+}
+
+
+/*==========================================*/

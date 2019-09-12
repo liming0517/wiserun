@@ -1,0 +1,128 @@
+body,td,th {
+	font-family: 新宋体;
+	font-size: 12px;
+	color: #333333;
+}
+body {
+	background-color: #FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.mainbg {
+	background-image: url(../images/mainbg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 81px;
+}
+.buttonbg {
+	background-image: url(../images/buttonbg.gif);
+	background-repeat: repeat-x;
+	border: 1px solid #E87159;
+	height: 24px;
+}
+.maintdbg {
+	background-image: url(../images/tdbg.gif);
+	background-repeat: repeat-x;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	line-height: 25px;
+}
+.rightbk {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCCCCC;
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+}
+
+
+
+.STYLE1 {
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.mainbianju {
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+.STYLE2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+}
+.STYLE3 {
+	color: #D41C64;
+	text-decoration: underline;
+}
+.STYLE4 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.STYLE5 {
+	font-size: 14px;
+	color: #666666;
+}
+.btbg {
+	line-height: 30px;
+	background-color: #F7F7F7;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #F3F3F3;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.tdbg {
+	background-color: #FFFFFF;
+	border-bottom-style: solid;
+	border-bottom-color: #F3F3F3;
+	line-height: 30px;
+	border-bottom-width: 1px;
+	font-family: "宋体", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+
+.STYLE7 {color: #D41C64; text-decoration: underline; font-size: 14px; }
+.STYLE8 {
+	color: #000000;
+	font-weight: bold;
+}
+.readbg {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	background-color: #F2FAFD;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D2ECFB;
+	line-height: 28px;
+	width: 100px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #D2ECFB;
+}
+.readbg2 {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D2ECFB;
+	padding-left: 15px;
+}
+.readbg3 {
+	background-image: url(../images/readbg.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+	height: 51px;
+}

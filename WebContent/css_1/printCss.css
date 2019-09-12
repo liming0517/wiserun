@@ -1,0 +1,15 @@
+@CHARSET "GB18030";
+
+table {
+	font-size: 18px;
+	padding: 15;
+	width: 900px;
+}
+
+table th {
+	font-size: 24px;
+}
+
+.tdpadding {
+	padding: 0;
+}

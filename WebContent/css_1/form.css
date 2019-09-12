@@ -1,0 +1,20 @@
+body {
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+.width {
+	width: 160px;
+}
+.width2 {
+	width: 80px;
+}
+
+.line_height {
+	line-height: 80px;
+}
+.bk_2px {
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #49ABD6;
+}

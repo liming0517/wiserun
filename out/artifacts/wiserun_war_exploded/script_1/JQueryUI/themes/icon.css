@@ -1,0 +1,127 @@
+.icon-add{
+	background:url('/VANDF/script/JQueryUI/themes/edit_add.png') no-repeat;
+}
+.icon-edit{
+	background:url('/VANDF/script/JQueryUI/themes/pencil.png') no-repeat;
+}
+.icon-remove{
+	background:url('/VANDF/script/JQueryUI/themes/edit_remove.png') no-repeat;
+}
+.icon-save{
+	background:url('/VANDF/script/JQueryUI/themes/filesave.png') no-repeat;
+}
+.icon-cut{
+	background:url('/VANDF/script/JQueryUI/themes/cut.png') no-repeat;
+}
+.icon-ok{
+	background:url('/VANDF/script/JQueryUI/themes/ok.png') no-repeat;
+}
+.icon-no{
+	background:url('/VANDF/script/JQueryUI/themes/no.png') no-repeat;
+}
+.icon-cancel{
+	background:url('/VANDF/script/JQueryUI/themes/cancel.png') no-repeat;
+}
+.icon-reload{
+	background:url('/VANDF/script/JQueryUI/themes/reload.png') no-repeat;
+}
+.icon-search{
+	background:url('/VANDF/script/JQueryUI/themes/search.png') no-repeat;
+}
+.icon-print{
+	background:url('/VANDF/script/JQueryUI/themes/print.png') no-repeat;
+}
+.icon-help{
+	background:url('/VANDF/script/JQueryUI/themes/help.png') no-repeat;
+}
+.icon-undo{
+	background:url('/VANDF/script/JQueryUI/themes/undo.png') no-repeat;
+}
+.icon-redo{
+	background:url('/VANDF/script/JQueryUI/themes/redo.png') no-repeat;
+}
+.icon-back{
+	background:url('/VANDF/script/JQueryUI/themes/back.png') no-repeat;
+}
+.icon-jx{/*教学*/
+	background:url('/VANDF/script/JQueryUI/themes/4.png') no-repeat;
+}
+.icon-sx{/*实训*/
+	background:url('/VANDF/script/JQueryUI/themes/238.png') no-repeat;
+}
+.icon-zhsx{/*综合实训*/
+	background:url('/VANDF/script/JQueryUI/themes/320.png') no-repeat;
+}
+.icon-newsx{/*新实训*/
+	background:url('/VANDF/script/JQueryUI/themes/143.png') no-repeat;
+}
+.icon-resx{/*继续上次实训*/
+	background:url('/VANDF/script/JQueryUI/themes/155.png') no-repeat;
+}
+.icon-rwsm{/*任务说明*/
+	background:url('/VANDF/script/JQueryUI/themes/279.png') no-repeat;
+}
+.icon-df{/*得分查看*/
+	background:url('/VANDF/script/JQueryUI/themes/106.png') no-repeat;
+}
+.icon-begin{/*开始*/
+	background:url('/VANDF/script/JQueryUI/themes/561.png') no-repeat;
+}
+.icon-end{/*结束*/
+	background:url('/VANDF/script/JQueryUI/themes/597.png') no-repeat;
+}
+.icon-zy{/*作业情况*/
+	background:url('/VANDF/script/JQueryUI/themes/299.png') no-repeat;
+}
+.icon-hd{/*互动*/
+	background:url('/VANDF/script/JQueryUI/themes/199.png') no-repeat;
+}
+.icon-pj{/*评价*/
+	background:url('/VANDF/script/JQueryUI/themes/549.png') no-repeat;
+}
+.icon-sk{/*上课*/
+	background:url('/VANDF/script/JQueryUI/themes/280.png') no-repeat;
+}
+.icon-bf{/*播放*/
+	background:url('/VANDF/script/JQueryUI/themes/bf.png') no-repeat;
+}
+.icon-pd{/*启动*/
+	background:url('/VANDF/script/JQueryUI/themes/206.png') no-repeat;
+}
+.icon-ktlx{/*开始课堂练习*/
+	background:url('/VANDF/script/JQueryUI/themes/174.png') no-repeat;
+}
+.icon-lb{/*录播*/
+	background:url('/VANDF/script/JQueryUI/themes/63.png') no-repeat;
+}
+.icon-finish{/*已完成*/
+	background:url('/VANDF/script/JQueryUI/themes/114.png') no-repeat;
+}
+.icon-unfinish{/*未完成*/
+	background:url('/VANDF/script/JQueryUI/themes/544.png') no-repeat;
+}
+.icon-ktlx{/*课堂练习*/
+	background:url('/VANDF/script/JQueryUI/themes/174.png') no-repeat;
+}
+.icon-khlx{/*课后练习*/
+	background:url('/VANDF/script/JQueryUI/themes/271.png') no-repeat;
+}
+.icon-kjck{/*课件查看*/
+	background:url('/VANDF/script/JQueryUI/themes/173.png') no-repeat;
+}
+.icon-pm{/*排名*/
+	background:url('/VANDF/script/JQueryUI/themes/248.png') no-repeat;
+}
+.icon-first{/*第一页*/
+	background: url(/VANDF/script/JQueryUI/themes/pagination_first.gif) no-repeat;
+}
+.icon-prev{/*前一页*/
+	background: url(/VANDF/script/JQueryUI/themes/pagination_prev.gif) no-repeat;
+}
+
+.icon-last{/*最后一页*/
+	background: url(/VANDF/script/JQueryUI/themes/pagination_last.gif) no-repeat;
+}
+.icon-next{/*下一页*/
+	background: url(/VANDF/script/JQueryUI/themes/pagination_next.gif) no-repeat;
+}

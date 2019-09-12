@@ -1,0 +1,151 @@
+body{
+	font-size:12px;
+	font-family:Arial,Helvetica,'宋体',sans-serif;
+	color:#333;
+	background:#fff;
+	margin:0;
+}
+.tabs a:link{
+	color:#0041D9;
+	text-decoration:none;
+	outline:none;
+}
+.tabs a:visited{
+	color:#0041D9;
+	text-decoration:none;
+	outline:none;
+}
+
+.tabs a:hover{
+	color:#f60;
+	text-decoration:underline;
+	outline:none;
+}
+
+.tabs a:active{
+	color:#0041D9;
+	text-decoration:none;
+	outline:none;
+}
+.header{
+	position:relative;
+	width:100%;
+}
+
+div.bar{
+	position:relative;
+	height:42px;
+	background:url(../images/horizongtalMenu/mainmenu.bg14_6x42.gif) repeat-x;
+}
+
+.header div.tabbar{
+	width:900px;
+}
+
+.header .tabbar div.tabs{
+	left:6px;
+	position:absolute;
+	top:21px;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.header .tabbar .tabs a{
+	float:left;
+	width:80px;
+	height:24px;
+	line-height:24px;
+	padding-top:7px;
+	text-align:center;
+	color:#000;
+	font-weight:lighter;
+	font-size:14px;
+	background:transparent;
+}
+
+.header .tabbar .tabs a:hover{
+	background:#CEF2F9 url(../images/horizongtalMenu/nav_hover_80x31.gif) no-repeat;
+	text-decoration:none;
+	margin-left:-1px;
+	padding-left:1px;
+}
+
+.header .tabbar .tabs a:active{
+	background:#1D88D2 url(../images/horizongtalMenu/nav_80x31.gif) no-repeat;
+	font-weight:bold;
+	color:#fff;
+	margin-left:-1px;
+	padding-left:1px;
+}
+
+.header .tabbar .tabs a.actived{
+	background:#fff url(../images/horizongtalMenu/nav_80x31.gif) no-repeat;
+	font-weight:bold;
+	color:#fff;
+	margin-left:-1px;
+	padding-left:1px;
+}
+
+.header .tabbar .tabs a.actived:hover{
+	background:#fff url(../images/horizongtalMenu/nav_80x31.gif) no-repeat;
+	font-weight:bold;
+	color:#fff;
+	text-decoration: none;
+}
+
+.header .tabbar .backg{
+	position:absolute;
+	left:5px;
+	top:23px;
+	width:560px;
+	height:28px;
+	z-index:-1;
+}
+
+.header .tabbar .backg .nw{
+	float:left;
+	width:80px;
+	height:28px;
+	background:transparent url(../images/horizongtalMenu/navleft2_80x31.gif) no-repeat;
+}
+
+.header .tabbar .backg .cen{
+	float:left;
+	width:80px;
+	height:28px;
+	background:transparent url(../images/horizongtalMenu/navlcenter_80x31.gif) no-repeat;
+}
+
+.header .tabbar .backg .ne{
+	float:left;
+	width:80px;
+	height:28px;
+	background:transparent url(../images/horizongtalMenu/navright_80x31.gif) no-repeat;
+}
+
+.header .tabbar .float_icon{
+	background:transparent url(../images/horizongtalMenu/new01_18x19.gif) no-repeat;
+	font-size:0;height:19px;
+	line-height:0;
+	position:absolute;
+	right:403px;
+	text-indent:-999px;
+	top:-4px;
+	width:18px;
+}
+
+.header{
+	z-index:20;
+	min-width:970px;
+}
+
+.header div.banner{
+	position:relative;
+	height:50px;
+	z-index:10;
+}
+
+div.bar{
+	height:7px;
+	background:url(../images/horizongtalMenu/mainmenu.bg11_6x7.gif) repeat-x;
+}

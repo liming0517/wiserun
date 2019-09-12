@@ -1,0 +1,16 @@
+body {
+	background-image: url(../images/indexbg.jpg);
+	margin-left: 0px;
+	margin-top: 00px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-family: 宋体;
+	font-size: 12px;
+}
+.STYLE5 {color: #FFFFFF; font-size: 14px; font-weight: bold; }
+.height {
+	line-height: 25px;
+	color: #FFFFFF;
+}

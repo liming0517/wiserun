@@ -1,0 +1,96 @@
+	A:link
+{
+    COLOR: #000080;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #C9D1E9;
+    TEXT-DECORATION: underline
+}
+A:visited
+{
+    COLOR: #800080;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #000080;
+    TEXT-DECORATION: underline
+}
+A.a:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A.a:active
+{
+    COLOR: #000000;
+    TEXT-DECORATION: underline
+}
+A.a:visited
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A.a:hover
+{
+    COLOR: #000000;
+    TEXT-DECORATION: underline
+}
+.10p
+{
+    FONT-FAMILY: ËÎÌו;
+    FONT-SIZE: 10.5pt
+}
+td
+{
+    FONT-FAMILY: "ËÎÌו";
+    FONT-SIZE: 10pt
+}
+A.b:link
+{
+    COLOR: #C9D1E9;
+    TEXT-DECORATION: none
+}
+A.b:active
+{
+    COLOR: #C9D1E9;;
+    TEXT-DECORATION: underline
+}
+A.b:visited
+{
+    COLOR: #C9D1E9;;
+    TEXT-DECORATION: none
+}
+A.b:hover
+{
+    COLOR: #C9D1E9;;
+    TEXT-DECORATION: underline
+}   
+.coolinput 
+{
+	font-size: 9pt; width: 80; font-family: verdana; height: 20; border: 1 solid #000000
+}
+.coolinput2 
+{
+	font-size: 15pt; width: 100; font-family: verdana; height: 30; border: 1 solid #000000
+}
+.btype{
+	font-size: 9pt; width: 120; font-family: verdana; height: 20; border: 1 solid #000000
+}
+.forform {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #f2f2f2 1px solid; BORDER-RIGHT: #f2f2f2 1px solid; BORDER-TOP: #f2f2f2 1px solid; BackGround: #f2f2f2
+}
+.forform2 {
+	BORDER-BOTTOM: #f2f2f2 1px solid; BORDER-LEFT: #f2f2f2 1px solid; BORDER-RIGHT: #f2f2f2 1px solid; BORDER-TOP: #f2f2f2 1px solid; BackGround: #f2f2f2
+}
+ .Defined	{
+	font-family: Webdings;
+	font-size:7pt;
+	color:black;
+	cursor:none
+}
+BODY {
+	FONT-SIZE: 9pt; scrollbar-face-color: efefef; scrollbar-3dlight-color: dfdfdf; scrollbar-darkshadow-color: dfdfdf; scrollbar-track-color: dfdfdf; scrollbar-arrow-color: ffffff; scrollbar-shadow-color: dfdfdf
+}

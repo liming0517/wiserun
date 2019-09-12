@@ -1,0 +1,29 @@
+body {
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+}
+.bj {
+	padding-bottom: 40px;
+}
+.STYLE4 {
+	font-size: 14px;
+	font-weight: bold;
+}
+#Layer2 {
+	position:absolute;
+	width:500px;
+	height:150px;
+	z-index:1;
+	margin-top: 75px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: 25%;
+	visibility: hidden;
+}
+.STYLE5 {color: #FF0000}
+.div_bk {
+
+	border: 1px solid #CCCCCC;
+}
